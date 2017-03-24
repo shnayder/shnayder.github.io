@@ -1,0 +1,87 @@
+/* Everything */
+
+body {
+   background-color: #FFFFFF;
+}
+html{
+   font-size: 16px;
+}
+
+@media(max-width:60em){
+html {font-size: 120%}
+}
+
+
+p {
+   line-height: 1.2;
+}
+
+#content {
+   margin-left:auto; 
+   margin-right:auto;
+   padding: 10px;
+   min-width: 60%;
+   max-width: 800px;
+
+   background-color: white;
+}
+
+
+/* header */
+
+.header {
+   text-align: left;
+   font-weight: bold;
+}
+
+.header h1 {
+  font-size: 200%;
+}
+
+.header img {
+  float: left;
+  margin: 10px;
+/*  margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+.header hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both 
+}
+
+.harvard {
+   color: #800000;
+}
+
+/* Body */
+
+table.stufflist {
+ border-spacing: 10px; 
+}
+
+.stufflist td {
+  padding-left: 25px;
+  padding-right: 20px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.main h2 {
+   color: #1F2F8B;
+   text-align: left;
+}
+
+.main li {
+   padding: 0 0 10px 0;
+   list-style: none;
+}
